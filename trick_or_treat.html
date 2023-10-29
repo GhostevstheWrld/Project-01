@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ghoste.xyz</title>
+        <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      </head>
+    <body>
+<style>
+
+h2 {
+  margin-top: auto;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  animation: 20s rotate linear infinite,shake-slow 10s ease-in-out infinite,gradient 15s ease infinite;
+}
+
+@keyframes shake-slow{
+  0%{transform:translate(0, 0) rotate(0) perspective(1600px) rotateY(30deg)}
+  15%{transform:translate(4px, 2px) rotate(-.1deg) perspective(1600px) rotateY(30deg)}
+  30%{transform:translate(3px, -5px) rotate(0.5deg) perspective(1600px) rotateY(30deg)}
+  50%{transform:translate(4px, -3px) rotate(-.5deg) perspective(1600px) rotateY(30deg)}
+  70%{transform:translate(-3px, 3px) rotate(1.2deg) perspective(1600px) rotateY(30deg)}
+  85%{transform:translate(-3px, 3px) rotate(1.2deg) perspective(1600px) rotateY(30deg)}
+  100%{transform:translate(0, 0) rotate(0) perspective(1600px) rotateY(30deg)}
+}
+
+</style>
+
+<h2>I swear it's on your own mother's grave.</h2>
+
+<center>
+
+<button onclick="document.getElementById('myImage').src='pic_off.gif'">HOME</button>
+
+<button onclick="document.getElementById('myImages').src='pic_on.gif'">NEXT</button>
+
+<img id="myImages" src="C:\Users\kobsj\Downloads\happy_halloween\assets\pic_off.gif" style="width:1125px">
+
+</center>
+
+</body>
+</html>
